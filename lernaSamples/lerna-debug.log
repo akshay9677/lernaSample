@@ -1,0 +1,6 @@
+39 error Error: Command failed: git add -- packages/sampleComponent/package.json packages/sampletest/package.json packages/Buttons/package.json packages/Buttons/package-lock.json packages/samplevue/package.json packages/samplevue/package-lock.json packages/vue/package.json packages/vue/package-lock.json lerna.json
+39 error fatal: Pathspec 'packages/vue/package.json' is in submodule 'lernaSamples/packages/vue'
+39 error
+39 error     at makeError (/usr/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+39 error     at Promise.all.then.arr (/usr/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
+39 error     at <anonymous>

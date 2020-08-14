@@ -4,11 +4,11 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "scripts": {
     "test": "npm run serve --prefix packages/vue",
-    "prepublish": "lerna publish && npm publish",
+    "release": "lerna publish",
     "prepack": "lerna bootstrap"
   },
   "author": "",

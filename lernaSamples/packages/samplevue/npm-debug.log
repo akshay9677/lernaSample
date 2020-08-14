@@ -1,0 +1,201 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/digital/.nvm/versions/node/v6.4.0/bin/node',
+1 verbose cli   '/home/digital/.nvm/versions/node/v6.4.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'vue',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.3
+3 info using node@v6.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData vue
+8 silly fetchNamedPackageData vue
+9 silly mapToRegistry name vue
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'vue',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'vue',
+12 silly mapToRegistry   name: 'vue',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://registry.npmjs.org/vue
+14 verbose request uri http://registry.npmjs.org/vue
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:15:38 PM
+17 verbose request using bearer token for auth
+18 verbose request id 4d4117d005e7a148
+19 http request GET http://registry.npmjs.org/vue
+20 http 200 http://registry.npmjs.org/vue
+21 verbose headers { date: 'Thu, 13 Aug 2020 16:45:38 GMT',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=dbda840e99af4b841760ee289341f20281597337138; expires=Sat, 12-Sep-20 16:45:38 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '5c23e85e2d07dca5-MAA',
+21 verbose headers   age: '6861',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: 'W/"1e0f49fcaf787b6282794f07c79261a7"',
+21 verbose headers   'last-modified': 'Tue, 28 Jul 2020 21:42:53 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-request-id': '048a4f8edd0000dca56028d200000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare',
+21 verbose headers   'content-encoding': 'gzip' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Thu, 13 Aug 2020 16:45:38 GMT',
+22 silly get     'content-type': 'application/json',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=dbda840e99af4b841760ee289341f20281597337138; expires=Sat, 12-Sep-20 16:45:38 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '5c23e85e2d07dca5-MAA',
+22 silly get     age: '6861',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: 'W/"1e0f49fcaf787b6282794f07c79261a7"',
+22 silly get     'last-modified': 'Tue, 28 Jul 2020 21:42:53 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-request-id': '048a4f8edd0000dca56028d200000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare',
+22 silly get     'content-encoding': 'gzip' } ]
+23 verbose get saving vue to /home/digital/.npm/registry.npmjs.org/vue/.cache.json
+24 verbose correctMkdir /home/digital/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule vue@2.6.11 checking installable status
+38 silly cache add args [ 'vue', null ]
+39 verbose cache add spec vue
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'vue',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'vue',
+40 silly cache add   name: 'vue',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed vue@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for vue
+43 info addNameTag [ 'vue', 'latest' ]
+44 silly mapToRegistry name vue
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'vue',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'vue',
+47 silly mapToRegistry   name: 'vue',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://registry.npmjs.org/vue
+49 verbose addNameTag registry:http://registry.npmjs.org/vue not in flight; fetching
+50 verbose request uri http://registry.npmjs.org/vue
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 10:15:40 PM
+53 verbose request using bearer token for auth
+54 http request GET http://registry.npmjs.org/vue
+55 http 200 http://registry.npmjs.org/vue
+56 verbose headers { date: 'Thu, 13 Aug 2020 16:45:40 GMT',
+56 verbose headers   'content-type': 'application/json',
+56 verbose headers   'transfer-encoding': 'chunked',
+56 verbose headers   connection: 'keep-alive',
+56 verbose headers   'set-cookie': [ '__cfduid=d98527fdbfe85b131519b2d24e75519061597337140; expires=Sat, 12-Sep-20 16:45:40 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+56 verbose headers   'cf-ray': '5c23e867cc37dca5-MAA',
+56 verbose headers   age: '6863',
+56 verbose headers   'cache-control': 'public, max-age=300',
+56 verbose headers   etag: 'W/"1e0f49fcaf787b6282794f07c79261a7"',
+56 verbose headers   'last-modified': 'Tue, 28 Jul 2020 21:42:53 GMT',
+56 verbose headers   vary: 'accept-encoding, accept',
+56 verbose headers   'cf-cache-status': 'HIT',
+56 verbose headers   'cf-request-id': '048a4f94d80000dca5602e0200000001',
+56 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+56 verbose headers   server: 'cloudflare',
+56 verbose headers   'content-encoding': 'gzip' }
+57 silly get cb [ 200,
+57 silly get   { date: 'Thu, 13 Aug 2020 16:45:40 GMT',
+57 silly get     'content-type': 'application/json',
+57 silly get     'transfer-encoding': 'chunked',
+57 silly get     connection: 'keep-alive',
+57 silly get     'set-cookie': [ '__cfduid=d98527fdbfe85b131519b2d24e75519061597337140; expires=Sat, 12-Sep-20 16:45:40 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+57 silly get     'cf-ray': '5c23e867cc37dca5-MAA',
+57 silly get     age: '6863',
+57 silly get     'cache-control': 'public, max-age=300',
+57 silly get     etag: 'W/"1e0f49fcaf787b6282794f07c79261a7"',
+57 silly get     'last-modified': 'Tue, 28 Jul 2020 21:42:53 GMT',
+57 silly get     vary: 'accept-encoding, accept',
+57 silly get     'cf-cache-status': 'HIT',
+57 silly get     'cf-request-id': '048a4f94d80000dca5602e0200000001',
+57 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+57 silly get     server: 'cloudflare',
+57 silly get     'content-encoding': 'gzip' } ]
+58 verbose get saving vue to /home/digital/.npm/registry.npmjs.org/vue/.cache.json
+59 verbose correctMkdir /home/digital/.npm correctMkdir not in flight; initializing
+60 silly addNameTag next cb for vue with tag latest
+61 silly addNamed vue@2.6.11
+62 verbose addNamed "2.6.11" is a plain semver version for vue
+63 silly mapToRegistry name vue
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry http://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'vue',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   escapedName: 'vue',
+66 silly mapToRegistry   name: 'vue',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri http://registry.npmjs.org/vue
+68 verbose addRemoteTarball http://registry.npmjs.org/vue/-/vue-2.6.11.tgz not in flight; adding
+69 verbose addRemoteTarball [ 'http://registry.npmjs.org/vue/-/vue-2.6.11.tgz',
+69 verbose addRemoteTarball   '76594d877d4b12234406e84e35275c6d514125c5' ]
+70 info retry fetch attempt 1 at 10:15:40 PM
+71 info attempt registry request try #1 at 10:15:40 PM
+72 http fetch GET http://registry.npmjs.org/vue/-/vue-2.6.11.tgz
+73 verbose request using bearer token for auth
+74 http fetch 200 http://registry.npmjs.org/vue/-/vue-2.6.11.tgz
+75 silly fetchAndShaCheck shasum 76594d877d4b12234406e84e35275c6d514125c5
+76 verbose addTmpTarball /tmp/npm-32012-945f1f88/registry.npmjs.org/vue/-/vue-2.6.11.tgz not in flight; adding
+77 verbose addTmpTarball already have metadata; skipping unpack for vue@2.6.11
+78 verbose correctMkdir /home/digital/.npm correctMkdir not in flight; initializing
+79 silly rollbackFailedOptional Starting
+80 silly rollbackFailedOptional Finishing
+81 silly runTopLevelLifecycles Starting
+82 silly runTopLevelLifecycles Finishing
+83 silly install printInstalled
+84 verbose stack Error: EACCES: permission denied, mkdir '/home/digital/.npm/vue'
+84 verbose stack     at Error (native)
+85 verbose cwd /home/digital/Desktop/lernaSample/packages/samplevue
+86 error Linux 5.0.0-23-generic
+87 error argv "/home/digital/.nvm/versions/node/v6.4.0/bin/node" "/home/digital/.nvm/versions/node/v6.4.0/bin/npm" "install" "vue" "--save"
+88 error node v6.4.0
+89 error npm  v3.10.3
+90 error path /home/digital/.npm/vue
+91 error code EACCES
+92 error errno -13
+93 error syscall mkdir
+94 error Error: EACCES: permission denied, mkdir '/home/digital/.npm/vue'
+94 error     at Error (native)
+94 error  { Error: EACCES: permission denied, mkdir '/home/digital/.npm/vue'
+94 error     at Error (native)
+94 error   errno: -13,
+94 error   code: 'EACCES',
+94 error   syscall: 'mkdir',
+94 error   path: '/home/digital/.npm/vue',
+94 error   parent: 'samplevue' }
+95 error Please try running this command again as root/Administrator.
+96 verbose exit [ -13, true ]

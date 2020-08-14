@@ -1,6 +1,6 @@
 {
   "name": "sampletest",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "7223dacf41ae432088eb189e741fb66764032cd2"
+  "gitHead": "396c77b2286ad9d219105adf13fb3c3b3b701255"
 }

@@ -1,6 +1,6 @@
 {
-  "name": "samplecomponent",
-  "version": "1.1.0",
+  "name": "sampletest",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "gitHead": "a3ed74344fc51271ed8227bf017f3f4d50515667"
+  "license": "ISC"
 }

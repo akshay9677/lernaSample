@@ -1,12 +1,12 @@
 <template>
-<div>
-    <el-button type="success">{{msg}}</el-button>
+    <div>
+    <el-button  v-if='red' type='success' >{{msg}}</el-button>
+    <el-button v-else type='danger' >{{msg}}</el-button>
     </div>
 </template>
 <script>
-import {Button} from 'element-ui';
 export default {
     name: 'Buttons',
-    props:['msg']
+    props:['msg','red']
 }
 </script>

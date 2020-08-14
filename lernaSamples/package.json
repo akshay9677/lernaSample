@@ -1,0 +1,17 @@
+{
+  "name": "akshay-sample-vue-ui",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish":"lerna publish && npm publish",
+    "prepack": "lerna bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

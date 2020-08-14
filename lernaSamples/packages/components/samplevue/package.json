@@ -1,6 +1,6 @@
 {
-  "name": "samplevue",
-  "version": "1.5.0",
+  "name": "samplevuetestakshay",
+  "version": "1.5.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,5 @@
     "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.11"
   },
-  "gitHead": "396c77b2286ad9d219105adf13fb3c3b3b701255"
+  "gitHead": "4f7451a3de8a7ed258ce13b5e354a76597aa1d57"
 }

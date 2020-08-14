@@ -1,6 +1,6 @@
 {
   "name": "buttons",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
   "dependencies": {
     "element-ui": "^2.13.2"
   },
-  "gitHead": "63a8fe4ba816690fa382757381266f30ea46175b"
+  "gitHead": "7223dacf41ae432088eb189e741fb66764032cd2"
 }

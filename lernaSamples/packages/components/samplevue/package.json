@@ -1,6 +1,6 @@
 {
   "name": "samplevue",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,5 @@
     "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.11"
   },
-  "gitHead": "63a8fe4ba816690fa382757381266f30ea46175b"
+  "gitHead": "7223dacf41ae432088eb189e741fb66764032cd2"
 }

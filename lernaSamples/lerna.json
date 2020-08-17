@@ -2,11 +2,11 @@
   "packages": [
     "packages/components/*"
   ],
-  "version": "1.6.2",
+  "version": "1.6.0",
   "command": {
     "publish": {
       "ignoreChanges": [
-        "Buttons/**"
+        "packages/components/Buttons"
       ]
     }
   }

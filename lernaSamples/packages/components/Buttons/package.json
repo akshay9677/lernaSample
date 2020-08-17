@@ -2,6 +2,7 @@
   "name": "buttonssamplevue",
   "version": "1.6.2",
   "description": "",
+  "private":true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +13,5 @@
   "dependencies": {
     "element-ui": "^2.13.2"
   },
-  "gitHead": "4f7451a3de8a7ed258ce13b5e354a76597aa1d57"
+  "gitHead": "48f1d1cc308d861ebdb9baf3b032a119ccc412b7"
 }

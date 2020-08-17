@@ -6,7 +6,7 @@
   "command": {
     "publish": {
       "ignoreChanges": [
-        "Buttons"
+        "**/**/Buttons"
       ]
     }
   }

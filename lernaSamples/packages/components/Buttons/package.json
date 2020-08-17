@@ -1,8 +1,8 @@
 {
   "name": "buttonssamplevue",
-  "version": "1.6.2",
+  "version": "2.0.0",
   "description": "",
-  "private":true,
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
